@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#805ece" />
+  <title>Food Delicious</title>
+  <!-- Font Awsome -->
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+  <link rel="manifest" href="./app.webmanifest">
+  <link rel="icon" href="/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Menuju ke konten</a>
+  <header>
+    <a href="/" class="logo">Foods Delicious</a>
+    <button class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </button>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="#/list-restaurant">Restaurant</a>
+        </li>
+        <li>
+          <a href="#about">About Us</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="heroContainer" id="home">
+    <div class="slide-container">
+      <div class="slides">
+        <img src="./images/heros/hero-image_2.jpg" class="img-slide active" alt="Restauran">
+        <img src="./images/heros/hero-image_1.jpg" class="img-slide" alt="Restauran">
+        <img src="./images/heros/hero-image_3.jpg" class="img-slide" alt="Restauran">
+        <img src="./images/heros/hero-image_4.jpg" class="img-slide" alt="Restauran">
+      </div>
+
+      <div class="buttons">
+        <span class="next">&#10095;</span>
+        <span class="prev">&#10094;</span>
+      </div>
+
+      <div class="dotsContainer">
+        <div class="dot active" attr='0' onclick="switchImage(this)"></div>
+        <div class="dot" attr='1' onclick="switchImage(this)"></div>
+        <div class="dot" attr='2' onclick="switchImage(this)"></div>
+        <div class="dot" attr='3' onclick="switchImage(this)"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <main id="main-content" tabindex="0"></main>
+
+  <footer id="about">
+    <div class="footerContainer">
+      <section class="team">
+        <div class="center">
+          <h1>Our Team</h1>
+        </div>
+
+        <div class="team-content">
+          <div class="box">
+            <div class="imageTeam">
+              <img src="./images/ourTeam/rsz_ikhwan.jpg" alt="Ikhwanus Sholih">
+            </div>
+            <h3>Ikhwanus Sholih</h3>
+            <h5>FrontEnd Web</h5>
+            <div class="icons">
+              <a href="https://instagram.com/ikhwanussholih"><i class="ri-instagram-line"></i></a>
+              <a href="https://github.com/ikhwanussholih"><i class="ri-github-fill"></i></a>
+              <a href="https://linkedin.com/in/ikhwanus-sholih-824a35217"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imageTeam">
+              <img src="./images/ourTeam/ilham.jpg" alt="Ilham Baihaqi" width="768px" height="768px">
+            </div>
+            <h3>Ilham Baihaqi</h3>
+            <h5>FrontEnd Web</h5>
+            <div class="icons">
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="https://github.com/ilbaihaqi"><i class="ri-github-fill"></i></a>
+              <a href="https://web.facebook.com/Baihaqi73z"><i class="ri-facebook-circle-fill"></i></a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imageTeam">
+              <img src="./images/ourTeam/fajar.jpg" alt="Fajar Maisandi Sinaga" width="768px" height="768px">
+            </div>
+            <h3>Fajar Maisandi Sinaga</h3>
+            <h5>FrontEnd Web</h5>
+            <div class="icons">
+              <a href="https://www.instagram.com/fajarmaisandisinaga/"><i class="ri-instagram-line"></i></a>
+              <a href="https://github.com/FajarMaisandiSinaga"><i class="ri-github-fill"></i></a>
+              <a href="/"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="./images/ourTeam/ridho.jpeg" alt="Ridho Pangestu" width="768px" height="768px">
+            <h3>Ridho Pangestu</h3>
+            <h5>FrontEnd Web</h5>
+            <div class="icons">
+              <a href="https://www.instagram.com/ridhopaa"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-github-fill"></i></a>
+              <a href="https://www.linkedin.com/in/ridho-pangestu"><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footerNav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#/list-restaurant">Restaurant</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerBottom">
+      <p>Copyright &copy;2024 Designed by <span class="designer">Universitas Teknokrat Indonesia</span></p>
+    </div>
+  </footer>
+
+  <script>
+    // Access the Images
+    let slideImages = document.querySelectorAll('.img-slide');
+    // Access the next and prev buttons
+    let next = document.querySelector('.next');
+    let prev = document.querySelector('.prev');
+    // Access the indicators
+    let dots = document.querySelectorAll('.dot');
+    let counter = 0;
+
+    // Code for next button
+    next.addEventListener('click', slideNext);
+    function slideNext() {
+      slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
+      if (counter >= slideImages.length - 1) {
+        counter = 0;
+      }
+      else {
+        counter++;
+      }
+      slideImages[counter].style.animation = 'next2 0.5s ease-in forwards';
+      indicators();
+    }
+
+    // Code for prev button
+    prev.addEventListener('click', slidePrev);
+    function slidePrev() {
+      slideImages[counter].style.animation = 'prev1 0.5s ease-in forwards';
+      if (counter == 0) {
+        counter = slideImages.length - 1;
+      }
+      else {
+        counter--;
+      }
+      slideImages[counter].style.animation = 'prev2 0.5s ease-in forwards';
+      indicators();
+    }
+
+    // Auto slideing
+    function autoSliding() {
+      deletInterval = setInterval(timer, 3000);
+      function timer() {
+        slideNext();
+        indicators();
+      }
+    }
+    autoSliding();
+
+    // Stop auto sliding when mouse is over
+    const container = document.querySelector('.slide-container');
+    container.addEventListener('mouseover', function () {
+      clearInterval(deletInterval);
+    });
+
+    // Resume sliding when mouse is out
+    container.addEventListener('mouseout', autoSliding);
+
+    // Add and remove active class from the indicators
+    function indicators() {
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(' active', '');
+        // console.log(dots[i].className)
+      }
+      dots[counter].className += ' active';
+    }
+
+    // Add click event to the indicator
+    function switchImage(currentImage) {
+      currentImage.classList.add('active');
+      let imageId = currentImage.getAttribute('attr');
+      if (imageId > counter) {
+        slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
+        counter = imageId;
+        slideImages[counter].style.animation = 'next2 0.5s ease-in forwards';
+      }
+      else if (imageId == counter) {
+        return;
+      }
+      else {
+        slideImages[counter].style.animation = 'prev1 0.5s ease-in forwards';
+        counter = imageId;
+        slideImages[counter].style.animation = 'prev2 0.5s ease-in forwards';
+      }
+      indicators();
+    }
+  </script>
+
+</body>
+
+</html>
