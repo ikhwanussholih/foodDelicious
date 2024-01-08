@@ -2,45 +2,45 @@
   "restaurants": [
     {
       "id": "6c7bqjgi84kcowlqdz",
-      "name": "Mie Gacoan Lampung Antasari",
-      "description": "Tempat makan asik bagi para pecinta mie pedas. Disini juga terdapat mie yang tidak pedas",
-      "pictureId": "./images/restaurant/MiGacoan.jpg",
-      "subdistrict":   " Way Halim",
-      "address": "Jl. Gajah Mada No.170, Kota Baru, Kec. Way Halim, Kota Bandar Lampung, Lampung 35121",
-      "time": " 10.00 - 22.00 WIB",
+      "name": "Angkringan Bukit Seduh",
+      "description": "Angkringan yang menawarkan pemandangan indah diatas bukit. Pemandangan indahnya kota, kelap-kelip lampu di jalan raya ammpu untuk memanjakan mata sekaligus tempat bersantai. Disini menawarkan snack dan minuman yang murah meriah untuk kaum mendang-mending.",
+      "pictureId": "./images/restaurant/bukitseduh.jpeg",
+      "subdistrict": " Kedaton",
+      "address": "J733+5FQ, Jl. Onta, Sukamenanti, Kec. Kedaton, Kota Bandar Lampung, Lampung 35126",
+      "time": " 19.00 - 00.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Mie suit"},
-          {"id": "112", "name": "Mie hompimpa"},
-          {"id": "113", "name": "Mie gacoan"},
-          {"id": "114", "name": "Aneka dimsum"}
+          {"id": "111", "name": "Mie Goreng"},
+          {"id": "112", "name": "Mie Rebus"},
+          {"id": "113", "name": "Onion Rings"},
+          {"id": "114", "name": "French Fries"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
           {"id": "115", "name": "Es buah"},
-          {"id": "116", "name": "Es Teh"}
+          {"id": "116", "name": "Es Teh"},
+          {"id": "116", "name": "Capucinno"}
         ]
       }
     },
     {
       "id": "ljx8i0qu2uckcowlqdz",
-      "name": "Mi Goyang Palapa",
-      "description": "Tempat makan asik bagi para pecinta mie pedas",
-      "pictureId": "./images/restaurant/MiGoyang.jpg",
-      "subdistrict":   " Kedaton",
+      "name": "Angkringan Kita",
+      "description": "Salah satu tempat angkringan yang menarik yang berada dipinggiran jalan. Menawarkan semilir angin yang segar dengan pemandangan jalan raya lalu-lalang. Angkringan ini menawarkan snack dan minuman yang ramah di kantong.",
+      "pictureId": "./images/restaurant/kita.jpg",
+      "subdistrict":   " Sukabumi",
       "address": "Jl. Mayor Sukardi Hamdani No.28, RT./ Rw/RW.002 / 001, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35142",
-      "time": " 10.00 - 22.00 WIB",
+      "time": " 20.00 - 00.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Mie Setan (Level 1-5)"},
-          {"id": "112", "name": "Mie Iblis (Level 1-5)"},
-          {"id": "113", "name": "Udang Keju"},
-          {"id": "114", "name": "Pangsit Goreng"}
+          {"id": "111", "name": "Mie Goreng"},
+          {"id": "112", "name": "Mie Rebus"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
-          {"id": "115", "name": "Es Merah Meriah"},
-          {"id": "116", "name": "Red Blash"},
-          {"id": "117", "name": "Es Lemon Tea"},
-          {"id": "118", "name": "Es Thai Tea"}
+          {"id": "115", "name": "Es buah"},
+          {"id": "116", "name": "Es Teh"},
+          {"id": "116", "name": "Capucinno"}
         ]
       }
     },
@@ -67,139 +67,88 @@
     },
     {
       "id": "ik1zljmlf68kcowlqdz",
-      "name": "McDonald's Kedaton",
-      "description": "Salah satu makanan cepat saji yang sudah sangat terkenal akan burgernya. Tetapi mereka juga menjual menu lainnya",
-      "pictureId": "./images/restaurant/McDonald.jpg",
+      "name": "Angrkingan Salome",
+      "description": "Salah satu angkringan yang pelayanan sangat ramah dengan pengunjung. Ditempat ini selalu ramai sehingga jika teman-teman ingin berkunjung jangan sampai tidak kebagian tempat",
+      "pictureId": "./images/restaurant/salome.jpeg",
       "subdistrict":   " Kedaton",
-      "address": "Jl. ZA. Pagar Alam No.3, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132",
-      "time": " 10.00 - 22.00 WIB",
+      "address": "J736+GP7, Jl. Teuku Umar, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung",
+      "time": " 19.00 - 00.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Paket Kenyang, Spicy + Merchandise"},
-          {"id": "112", "name": "Paket Kenyang, Krispy"},
-          {"id": "113", "name": "Paket Kenyang, Spicy"},
-          {"id": "114", "name": "PaNas Special Krispy, Medium"}
+          {"id": "117", "name": "Mie Goreng"},
+          {"id": "122", "name": "Mie Rebus"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
-          {"id": "115", "name": "Dragon Fruit Fizz"},
           {"id": "116", "name": "Bottled Mineral Water"},
-          {"id": "117", "name": "Coke Float"},
-          {"id": "118", "name": "Milo, Medium"}
+          {"id": "115", "name": "Es buah"},
+          {"id": "117", "name": "Es Teh"},
+          {"id": "113", "name": "Capucinno"}
         ]
       }
     },
     {
       "id": "9jpuzkm6n6jkcowlqdz",
-      "name": "Bakso Bamieta Sultan Agung",
-      "description": "Para pecinta bakso dan mie silahkan merapat.",
-      "pictureId": "./images/restaurant/Bamieta.jpeg",
-      "subdistrict":   " Labuhan Ratu",
-      "address": "Jl. Sultan Agung No.7, Sepang Jaya, Labuhan Ratu, Kota Bandar Lampung, Lampung 35148",
-      "time": " 10.00 - 22.00 WIB",
+      "name": "Angkringan Gas Pol 78",
+      "description": "Untuk kaum mendang-mending silahkan merapat. Disini menawarkan meja dan kursi untuk teman-teman memakan makanan serta menyajikan suasana santai antar",
+      "pictureId": "./images/restaurant/gaspol.jpg",
+      "subdistrict":   " tj. Karang Pusat",
+      "address": "Jl. Teuku Umar No.108, Penengahan, Kec. Tj. Karang Pusat, Kota Bandar Lampung, Lampung 35141",
+      "time": " 20.00 - 00.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Bakso Bromo"},
-          {"id": "112", "name": "Bakmie Ayam Kampung"},
-          {"id": "113", "name": "Bakso PAJERO Bakul"},
-          {"id": "114", "name": "Bakso Janda Kembang"}
+          {"id": "111", "name": "Mie Goreng"},
+          {"id": "112", "name": "Mie Rebus"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
-          {"id": "115", "name": "Es TELER DURIAN"},
-          {"id": "116", "name": "Es Campur"},
-          {"id": "117", "name": "Es Kacang Merah"},
-          {"id": "118", "name": "Es Cincau"}
+          {"id": "115", "name": "Es buah"},
+          {"id": "116", "name": "Es Teh"},
+          {"id": "116", "name": "Capucinno"}
         ]
       }
     },
     {
       "id": "cpl5jpsnuqkkcowlqdz",
-      "name": "Shabu Kitchen Onago",
-      "description": "Salah satu rekomendasi tempat makan keluarga yang asik dan enak",
-      "pictureId": "./images/restaurant/shabu.jpg",
+      "name": "Angkringan Mbah Warno",
+      "description": "Salah satu angkringan yang pelayanan sangat ramah dengan pengunjung. Ditempat ini selalu ramai sehingga jika teman-teman ingin berkunjung jangan sampai tidak kebagian tempat. Terdapat live music juga sebagai hiburan",
+      "pictureId": "./images/restaurant/mbahwarno.jpg",
       "subdistrict":   " Kedaton",
-      "address": "Boemi Kedaton Mall, Jl. Teuku Umar No.6, Kedaton, Bandar Lampung City, Lampung 35132",
+      "address": "J746+9R6, Jl. Teuku Umar, Surabaya, Kec. Kedaton, Kota Bandar Lampung, Lampung",
       "time": " 10.00 - 22.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Dry Karage Ramen"},
-          {"id": "112", "name": "Dry Karage Spicy RamenBakmie Ayam Kampung"},
-          {"id": "113", "name": "Dry Chicken Chopped Ramen"},
-          {"id": "114", "name": "Beef Donburi"}
+          {"id": "117", "name": "Mie Goreng"},
+          {"id": "122", "name": "Mie Rebus"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
-          {"id": "115", "name": "Lemon Tea"},
-          {"id": "116", "name": "Shabu Kitchen Fruit Punch"},
-          {"id": "117", "name": "Monin Buble gum"},
-          {"id": "118", "name": "Strawbery Bublegum"}
+          {"id": "121", "name": "Teh (Panas/Dingin)"},
+          {"id": "120", "name": "Kopi Tubruk (Panas)"},
+          {"id": "125", "name": "Kopi Susu (Panas/Dingin)"}
         ]
       }
     },
     {
       "id": "iqtf9hmdzvbkcowlqdz",
-      "name": "Ichiban Sushi",
-      "description": "Tempat rekomendasi terbaik para pecinta sushi dan olahan ikan mentah. Dibuat oleh koki profesional yang menciptakan rasa yang unik sekaligus enak ketika mencapai lidah",
-      "pictureId": "./images/restaurant/ichiban.jpg",
+      "name": "Jamal Jajanan Malam",
+      "description": "Salah satu angkringan yang memiliki tempat luas sehingga untuk teman-teman tidak perlu khawatir akan kehabisan tempat duduk.",
+      "pictureId": "./images/restaurant/jamal.jpeg",
       "subdistrict":   " Kedaton",
-      "address": "Boemi Kedaton Mall, Jl. Teuku Umar No.6, Kedaton, Bandar Lampung City, Lampung 35132",
+      "address": "Dekat Jl. Teuku Umar, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132 Dekat, Jl. Teuku Umar, Sidodadi, Kec. Kedaton, Kota Bandar Lampung, Lampung 35132",
       "time": " 10.00 - 22.00 WIB",
       "menus": {
         "foods": [
-          {"id": "111", "name": "Hokkaido Beef Donburi"},
-          {"id": "112", "name": "Hokkaido Dory Donburi"},
-          {"id": "113", "name": "Hokkaido Chicken Donburi"},
-          {"id": "114", "name": "Sushi Attack Ichimura"}
+          {"id": "111", "name": "Mie Goreng"},
+          {"id": "112", "name": "Mie Rebus"},
+          {"id": "113", "name": "Onion Rings"},
+          {"id": "114", "name": "French Fries"},
+          {"id": "123", "name": "Sate tusuk"}
         ],
         "drinks": [
-          {"id": "115", "name": "Mineral Water"},
-          {"id": "116", "name": "Lemonade"},
-          {"id": "117", "name": "Lemon Tea"},
-          {"id": "118", "name": "Ocha"}
-        ]
-      }
-    },
-    {
-      "id": "8i06gqcc2dpkcowlqdz",
-      "name": "Kyafe",
-      "description": "Cafe di tengah pemukiman pendudukan ini cukup tenang dan kondusif sehingga cocok buat dijadikan workingspace atau tempat belajar. Nuansa sejuk juga langsung terasa karena di sekitar cafe ditumbuhi tanaman dan pepohonan lebat. Tapi jangan khawatir karena disediakan juga ruang indoor dengan AC dan outdoor untuk smoking area.",
-      "pictureId": "./images/restaurant/kyafe.jpg",
-      "subdistrict":   " Kedaton",
-      "address": "Boemi Kedaton Mall, Jl. Teuku Umar No.6, Kedaton, Bandar Lampung City, Lampung 35132",
-      "time": " 10.00 - 22.00 WIB",
-      "menus": {
-        "foods": [
-          {"id": "111", "name": "Karage Sambal Matah"},
-          {"id": "112", "name": "Karage Barbeque"},
-          {"id": "113", "name": "Crazy Rice"},
-          {"id": "114", "name": "French Fries"}
-        ],
-        "drinks": [
-          {"id": "115", "name": "Ice Americano"},
-          {"id": "116", "name": "Ice Cafelatte"},
-          {"id": "117", "name": "Cappucino"},
-          {"id": "118", "name": "Kopi Susu"}
-        ]
-      }
-    },
-    {
-      "id": "wf5o19xhxxkcowlqdz",
-      "name": "Dotuku Kopi",
-      "description": "Cafe homey dengan nuansa minimalis. Untuk tempat makannya terdapat ruang indoor dengan meja besar dan meja kecil, outdoor, dan teras. Cafe ini menyediakan musala, meski begitu 100 meter dari sana kamu juga bisa menemukan Masjid Jami’ Al Muhajirin dengan mudah jika musala sedang penuh.",
-      "pictureId": "./images/restaurant/ichiban.jpg",
-      "subdistrict":   " Kedaton",
-      "address": "Jl. Danau Toba No.19, Surabaya, Kec. Kedaton, Kota Bandar Lampung, Lampung 35141",
-      "time": " 9.00 - 23.00 WIB",
-      "menus": {
-        "foods": [
-          {"id": "111", "name": "Crispy Chicken"},
-          {"id": "112", "name": "French Fries"},
-          {"id": "113", "name": "Rice Bowl Teriyaki"},
-          {"id": "114", "name": "Rice Bowl Mentai"}
-        ],
-        "drinks": [
-          {"id": "115", "name": "Lemon Ice Tea"},
-          {"id": "116", "name": "Lychee ice Tea"},
-          {"id": "117", "name": "Mineral Water"},
-          {"id": "118", "name": "Kopi Dotuku"}
+          {"id": "115", "name": "Es buah"},
+          {"id": "116", "name": "Es Teh"},
+          {"id": "116", "name": "Capucinno"}
         ]
       }
     }
